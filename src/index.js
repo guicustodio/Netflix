@@ -4,7 +4,6 @@ import './index.css';
 
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Home from './Pages/Home/Home';
-import * as serviceWorker from './serviceWorker';
 import CadastroVideo from './Pages/Cadastro/Video/CadastroVideo';
 import CadastroCategoria from './Pages/Categoria/CadastroCategoria';
 
@@ -22,7 +21,6 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-serviceWorker.unregister();
 
 
 
